@@ -48,7 +48,7 @@ class Conductor: AKMIDIListener {
 
         AudioKit.output = reverbMixer
         AudioKit.start()
-        Audiobus.start()
+//        Audiobus.start()
 
         let midi = AKMIDI()
         midi.createVirtualPorts()
